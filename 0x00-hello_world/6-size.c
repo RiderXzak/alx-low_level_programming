@@ -1,8 +1,8 @@
-#include <stdio.h>
 /**
  * main - Entry point
  * Return 0 (Success)
  */
+#include <stdio.h>
 int main(void)
 {
 	char a;
