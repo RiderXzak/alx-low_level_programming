@@ -1,17 +1,17 @@
-#inculde < stdio.h >
+#include <stdio.h>
 /**
  * main - Entry point
- * return 0 (Success)
+ * Return 0 (Success)
  */
 int main(void)
 {
-	char a;
-	int b;
+	int a;
+	char b;
 	long int c;
 	long long int d;
 	float e;
 
-	printf("Size of a char: %lu byte(S)\n", sizeof(a));
+	printf("Size of a char: %lu byte(s)\n", sizeof(a));
 	printf("Size of a int: %lu byte(s)\n", sizeof(b));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(c));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(d));
