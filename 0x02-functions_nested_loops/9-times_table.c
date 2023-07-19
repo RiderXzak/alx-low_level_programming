@@ -9,6 +9,8 @@ void times_table(void)
 {
 	int i;
 	int j;
+	int k;
+	int l;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -16,16 +18,18 @@ void times_table(void)
 	{
 		int product = i * j;
 
-		_putchar((product / 10) + '0');
-		_putchar((product % 10) + '0');
-	if (j < 9)
+	if (product > 9)
 	{
-		_putchar(',');
-		_putchar(' ');
+	k = product % 10;
+	l = (k - product) / 10;
+	_putchar(',');
+	_putchar(' ');
+	_putchar(l + '0');
+	_putchar(k + '0');
 	}
 	else
 	{
-		if(j != 0)
+		if (j != 0)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -36,4 +40,5 @@ void times_table(void)
 	}
 	_putchar('\n');
 	}
+
 }
