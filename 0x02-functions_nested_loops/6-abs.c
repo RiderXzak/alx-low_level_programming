@@ -1,14 +1,17 @@
 #include "main.h"
 /**
  * _abs - transfrom the integer into abslote form
- * @int: Integer need to be transformed
- * Return: void
+ * @c: Integer need to be transformed
+ * Return: absolute value or 0
  */
 
-int _abs(int)
+int _abs(int c)
 {
-	if (int < 0)
+	if (c < 0)
 	{
-		_putchar(-int);
+		int abs = c * -1;
+
+		return (abs);
 	}
+	return (c);
 }
