@@ -6,9 +6,11 @@
  */
 void print_to_98(int n)
 {
+	int f = 98;
+
 	if (n < 98)
 	{
-		for (n = n; n < "98"; n++)
+		for (n = n; n < f; n++)
 		{
 		_putchar(n);
 		_putchar('\n');
@@ -16,13 +18,13 @@ void print_to_98(int n)
 	}
 	else if (n > 98)
 	{
-		for (n = n; n > "98"; n--)
+		for (n = n; n > f; n--)
 		{
 			_putchar(n);
 			_putchar('\n');
 		}
 	}
-	elsea
+	else
 	{
 		_putchar(n);
 		_putchar('\n');
