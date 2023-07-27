@@ -2,7 +2,7 @@
 /**
  * _puts - put stirn
  * @str : sting
- * Return void 
+ * Return: void
  */
 void _puts(char *str)
 {
