@@ -6,13 +6,13 @@
  */
 void _puts(char *str)
 {
-	if (str != NULL)
+	if (str != 0)
 	{
 		while (*str != '\0')
 		{
-			putchar(*str);
+			_putchar(*str);
 			str++;
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
