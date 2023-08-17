@@ -3,7 +3,7 @@
 /**
  * sum_them_all - varaddic function sum const int
  * @n: int
- *
+ *@...: parameter
  * Return: sum of num
  */
 int sum_them_all(const unsigned int n, ...)
